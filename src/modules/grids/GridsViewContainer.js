@@ -128,6 +128,6 @@ const listData = [
 
 export default compose(
   withState('tabIndex', 'setTabIndex', 0),
-  withState('tabs', 'setTabs', ['Grid', 'List 1', 'List 2']),
+  withState('tabs', 'setTabs', ['시터 찾기', 'List 1', '펫 찾기']),
   withState('data', 'setData', listData),
 )(GridView);
